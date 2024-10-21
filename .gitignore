@@ -1,0 +1,45 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea
+
+# Игнорировать конфигурационные файлы
+src/main/resources/config.properties
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.properties
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+target/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+resources
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+allure-results
+
+
+*.txt
