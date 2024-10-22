@@ -6,7 +6,7 @@ public class Main {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Пожалуйста, введите текст: ");
+        System.out.print("Пожалуйста, введите породу собаки: ");
         String inputText = scanner.nextLine();
 
 
